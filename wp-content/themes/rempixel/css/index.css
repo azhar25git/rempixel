@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow-y: scroll;
+}
+
+body{
+    width: 100%;
+    margin:0 auto;
+    background: #f4f4f4;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background: #FFF;
+    padding:10px; 
+    margin-top: 10px;
+}
+
+.nav ul{
+    width: 100%; 
+}
+
+li{
+    width: 19%;
+    float: left;
+    list-style: none;
+}
+
+.img{
+    width: 100%;
+    /* height: 500px;  */
+    background: f4f4f4;
+    margin-top: 10px;
+}
+
+.features{
+    width: 80%;
+    height: 200px;
+    padding:20px;
+    margin: 0 auto;
+}
+
+.feature{
+    width: 50%;
+    height: 50px;
+}
+
+.illustrator{
+    background: #000; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.laravel{
+    background: #000; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.photoshop{
+    background: pink; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: right;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.marketing{
+    background: pink; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: left;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.design{
+    background: yellow; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: right;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.php{
+    background: yellow ;
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: left;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.wordpress{
+    background: cyan; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: right;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.rempixelicon{
+    width:35%;
+    margin: 5% auto;
+}
+
+/* .rempixelicon .rempixeliconimg{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.rempixelicon .rempixeliconimglast{
+    margin-left: 30px;
+} */
+
+.security{
+    background: cyan; 
+    color: #FFF; 
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    float: left;
+    margin-top:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.loreumtext{
+    width: 80%; 
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.loreumtext h2{
+    text-align: center; 
+    color: #222; 
+    margin-top: 115px;
+}
+
+.loreumtext p{
+    text-align: justify;
+    color: #333;
+    line-height: 1.3em; 
+}
+
+.testimonials{
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    background:#df01af;
+    margin-top:20px;
+    color:#FFF; 
+    margin-bottom: 20px;
+}
+
+.testimonial_thumbnail{
+    width: 80px;
+    min-height: 80px; 
+    background: #848484;
+    margin: 0 auto;
+    margin-bottom: -30px;
+    z-index: 99999;
+    position: relative; 
+}
+
+.testimonial_content{
+    width: 100%;
+    min-height:150px; 
+    background: #FFF;
+    z-index: -99999;
+    border-radius: 5px;
+}
+
+.testimonial{
+    width: 100%;
+    min-height: 150px; 
+    margin-top: 10px;
+}
+
+.blog{
+    width: 100%;
+    min-height: 100px;
+    background: #FFF;
+    padding:15px;
+}
+
+.blog p{
+    text-align: justify;
+}
+
+.client_title{
+    width: 35%; 
+    height: 50px; 
+    background: cyan;
+    margin-top: 20px;
+}
+
+.client_list{
+    width: 100%; 
+    height: 100px; 
+    background: cyan;
+    padding:10px;
+}
+
+.client_title h3{
+    color:#fff;
+    text-align: center
+}
+
+.client_img{
+    width: 50px; 
+    height: 50px;
+    background: #222;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.portfolio_block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    background: rgb(250, 27, 139);
+    margin-top: 20px;
+    color: white;
+}
+.portfolio_block h2{
+    margin: auto;
+    font-weight: bold; 
+    text-align: left;
+    padding: 5px;
+}
+.pf_cont{
+    margin: 2%;    
+}
+
+.portfolio_work{
+    margin: 2px 2px 5px 2px; 
+    margin-left: 0;
+    width:15%; 
+    box-shadow: 0 0 0 1px gray ; 
+    background: cyan; 
+    text-align: center;
+    display: inline-table;
+    color: black;   
+    /* float: left; */
+}
+
+.portfolio_work:hover{
+    color: fuchsia;
+    box-shadow: 1px 3px gray;
+    text-decoration: none;
+}
+
+a .last{
+    margin-right: 0;
+}
+
+/* .first{
+    margin-left:15%;
+} */
+/* .nav-pills li{
+    margin: 2px;
+} */
+
+.show_img{
+    float:left; 
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 5px 5px;
+    margin-right: 20px;
+    padding: 1px;
+    /* border: 1px solid gray !important; */
+    box-shadow: 4px 4px rgb(143, 143, 143);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+div a img:hover {
+    box-shadow: 2px 4px lightskyblue;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.contact-left {
+    float: left;
+    width: 58%;
+    margin: 1% 2% 2% 0;
+    padding: 2%;
+    border: 1px solid darkgrey;
+    border-radius: 5pt;
+    display: block;
+    box-shadow: 2px 2px darkgray 2px 3px darkgrey;
+}
+.contact-right{
+    float: right;
+    width: 38%;
+    margin-left: 2%;;
+    padding: 2%;
+}
+
+/* .social{
+    margin: 10px auto;
+    padding: 10px;
+    float: left;
+} */
+.contact a{
+    margin: 10px auto;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+
+.address {
+    margin: 2px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5pt;
+    background: #fff;
+}
+
+
